@@ -1,0 +1,39 @@
+/* Mobile first
+- Screen sizes 230px-550px 
+*/
+
+img{
+    width: %100%;
+}
+
+.header{
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 20px
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic-container{
+    width: 30%;
+    margin: 5px;
+
+}
+
+@media (min-width: 550px){
+/* styles go here */
+    .body{
+        display: flex;
+}
+    .header{
+        height: 50%;
+    }
+}
+
+/* Desktop styles
+  - Screen sizes 550px and up
+*/
